@@ -113,5 +113,5 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 61. Add registration page ✅
 62. Add User model ✅
 63. Add User service ✅
-64. Handle registration (create user in database)
+64. Handle registration (create user in database) ✅
 65. Add password hashing

@@ -100,3 +100,18 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 
 ### Bonuses
 58. Filter casts if they are already attached ✅
+
+## Development Steps - Workshop 3: Session and Authentication
+
+### Initial Setup
+
+59. Add resources ✅
+
+### Registration
+
+60. Add new controller authController
+61. Add registration page
+62. Add User model
+63. Add User service
+64. Handle registration (create user in database)
+65. Add password hashing

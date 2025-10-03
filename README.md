@@ -110,7 +110,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 ### Registration
 
 60. Add new controller - authController ✅
-61. Add registration page
+61. Add registration page ✅
 62. Add User model
 63. Add User service
 64. Handle registration (create user in database)

@@ -1,10 +1,11 @@
 import { Router } from "express";
 import movieService from "../services/movieService.js";
 import castService from "../services/castService.js";
+import { isAuth } from "../middlewares/authMiddlewares.js";
 
 const movieController = Router();
 
-movieController.get("/create", (req, res) => {
+movieController.get("/create", isAuth, (req, res) => {
     if (req.isAuthenticated) {
         console.log(req.user.email);
     }
@@ -13,7 +14,7 @@ movieController.get("/create", (req, res) => {
 })
 
 // Read data from request
-movieController.post("/create", async(req, res) => {
+movieController.post("/create", isAuth, async(req, res) => {
     const movieData = req.body;
 
     await movieService.create(movieData);

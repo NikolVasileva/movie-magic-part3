@@ -27,7 +27,7 @@ export default {
         // Create token
         const payload = {
             id: user.id,
-            email: email.id
+            email: user.email
         };
 
         const token = jwt.sign(payload, JWT_SECRET, { expiresIn: "2h" });

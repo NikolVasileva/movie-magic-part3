@@ -119,7 +119,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 ### Login
 
 66. Add login page ✅
-67. Handle login page
+67. Handle login page ✅
 67.1. Validate user ✅
 67.2. Validate password ✅
 67.3. Create token -> i jsonwebtoken ✅

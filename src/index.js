@@ -4,6 +4,7 @@ import mongoose from "mongoose"
 
 import routes from "./routes.js";
 import cookieParser from "cookie-parser";
+import authMiddleware from "./middlewares/authMiddlewares.js";
 
 const app = express();
 
@@ -45,6 +46,9 @@ app.use(express.urlencoded())
 
 // Cookie Parser
 app.use(cookieParser());
+
+// Add Middleware
+app.use(authMiddleware)
 
 // Router
 app.use(routes)

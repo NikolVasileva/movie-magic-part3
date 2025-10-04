@@ -1,3 +1,27 @@
-function authMiddleware(req, res, next) {
+import jwt from "jsonwebtoken";
+import { JWT_SECRET } from "../config/constants.js";
+
+export default function authMiddleware(req, res, next) {
     const token = req.cookies["auth"];
+
+    if (!token) {
+        return next()
+    }
+
+    try {
+        const decodeToken = jwt.verify(token, JWT_SECRET);
+
+        // Attach authenticated user to request
+        req.user = decodeToken;
+        req.isAuthenticated = true;
+
+        // Valid user
+        next();
+
+    } catch (error) {
+        // Invalid user
+        res.clearCookie("auth");
+
+        res.redirect("/auth/login")
+    }
 }

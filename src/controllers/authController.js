@@ -12,7 +12,7 @@ authController.post("/register", async (req, res) => {
 
     await userService.register(userData);
 
-    res.redirect("/")
+    res.redirect("/login")
 })
 
 authController.get("/login", (req, res) => {
@@ -22,7 +22,12 @@ authController.get("/login", (req, res) => {
 authController.post("/login", async (req, res) => {
     const { email, password } = req.body;
 
-    await userService.login(email, password);
+    const token = await userService.login(email, password);
+
+    // Attach cookie to cookie
+    res.cookie("auth", token);
+
+    res.redirect("/")
 
 })
 

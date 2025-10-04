@@ -123,9 +123,9 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 67.1. Validate user ✅
 67.2. Validate password ✅
 67.3. Create token -> i jsonwebtoken ✅
-68. Return token to client
+67.4. Return token to client ✅
 
 ### Logout
 
-69. Add logout action
-70. Clear cookie
+68. Add logout action
+69. Clear cookie

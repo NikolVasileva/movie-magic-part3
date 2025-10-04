@@ -120,12 +120,12 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 
 66. Add login page ✅
 67. Handle login page
-68. Validate user
-69. Validate password
-70. Create token
-71. Return token to client
+67.1. Validate user ✅
+67.2. Validate password ✅
+67.3. Create token
+68. Return token to client
 
 ### Logout
 
-72. Add logout action
-73. Clear cookie
+69. Add logout action
+70. Clear cookie

@@ -115,3 +115,17 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 63. Add User service ✅
 64. Handle registration (create user in database) ✅
 65. Add password hashing -> bcrypt ✅
+
+### Login
+
+66. Add login page ✅
+67. Handle login page
+68. Validate user
+69. Validate password
+70. Create token
+71. Return token to client
+
+### Logout
+
+72. Add logout action
+73. Clear cookie

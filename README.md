@@ -135,4 +135,4 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 70. Install cookie parser -> i cookie-parser ✅
 71. Add auth middleware ✅
 72. Add isAuth route guard ✅
-73. Add isGuest route guard
+73. Add isGuest route guard ✅

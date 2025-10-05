@@ -140,7 +140,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 ### Dynamic Navigation
 
 74. Group navigation by user type (all, authenticated and guest) ✅
-75. Add auth info to handlebars context
+75. Add auth info to handlebars context ✅
 
 ### Show creator control buttons
 

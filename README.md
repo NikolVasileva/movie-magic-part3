@@ -158,7 +158,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 
 82. Add edit page ✅
 83. Add dynamic movie data to edit page ✅
-84. Handle edit movie
+84. Handle edit movie ✅
 
 ### Bonuses
 

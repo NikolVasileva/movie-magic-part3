@@ -148,3 +148,22 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 77. Add creator as relation to movies
 78. Add user as creator on movie create
 79. Show buttons only for creators
+
+### Delete movies
+
+80. Add delete action
+81. Add creator validation
+
+### Edit movies
+
+82. Add edit page
+83. Add dynamic movie data to edit page
+84. Handle edit movie
+
+### Bonuses
+
+85. Automatic login on register
+86. Edit categories
+87. Invalidate token on logout
+88. Refresh token
+89. Async jwt

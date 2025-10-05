@@ -147,7 +147,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 76. Add edit and delete buttons on details page ✅
 77. Add creator as relation to movies ✅
 78. Add user as creator on movie create ✅
-79. Show buttons only for creators
+79. Show buttons only for creators ✅
 
 ### Delete movies
 

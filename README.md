@@ -136,3 +136,15 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 71. Add auth middleware ✅
 72. Add isAuth route guard ✅
 73. Add isGuest route guard ✅
+
+### Dynamic Navigation
+
+74. Group navigation by user type (all, authenticated and guest) ✅
+75. Add auth info to handlebars context
+
+### Show creator control buttons
+
+76. Add edit and delete buttons on details page
+77. Add creator as relation to movies
+78. Add user as creator on movie create
+79. Show buttons only for creators

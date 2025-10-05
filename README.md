@@ -151,7 +151,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 
 ### Delete movies
 
-80. Add delete action
+80. Add delete action ✅
 81. Add creator validation
 
 ### Edit movies

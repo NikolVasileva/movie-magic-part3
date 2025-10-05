@@ -163,7 +163,7 @@ SoftUni JS Back-End Course Project <strong>"Movie Magic" Part 3</strong>
 ### Bonuses
 
 85. Automatic login on register
-86. Edit categories
+86. Edit categories ✅
 87. Invalidate token on logout
 88. Refresh token
 89. Async jwt
